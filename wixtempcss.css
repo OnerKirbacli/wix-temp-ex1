@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.hero-section {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.cta-button {
+    background-color: #FF8C00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services-section, .portfolio-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.service, .portfolio-item {
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-section {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact-section button {
+    background-color: #FF8C00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
